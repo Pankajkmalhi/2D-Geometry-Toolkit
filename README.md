@@ -1,1 +1,27 @@
-echo "# Convex Hull and Line Intersection Algorithms  \n\nThis project includes two Python scripts: \`convex_hull.py\` and \`line_intersection.py\`. The \`convex_hull.py\` script implements several algorithms for finding the convex hull of a set of points on a 2D plane. The \`line_intersection.py\` script, on the other hand, focuses on determining whether two line segments intersect.  \n\n## Convex Hull (\`convex_hull.py\`)  \n\n### Dependencies  \n\n- Python 3.x  \n- Tkinter (for the GUI in the \`PointGeneratorApp\` class)  \n\n### How to Run  \n\nRun the script by executing the following command in the terminal:  \n\n\`\`\`bash  \npython convex_hull.py  \n\`\`\`  \n\n### Usage  \n\n- Click the \"Generate Random Points\" button to create a set of random points on the canvas.  \n- Choose a convex hull algorithm from the available options: Brute Force, Jarvis March, Graham Scan, Quick Elimination, or Monotone Chain.  \n- The algorithm's execution time will be displayed on the canvas, and the convex hull will be drawn in red.  \n\n## Line Intersection (\`line_intersection.py\`)  \n\n### Dependencies  \n\n- Python 3.x  \n- Matplotlib  \n- NumPy  \n- memory-profiler  \n\n### How to Run  \n\nRun the script by executing the following command in the terminal:  \n\n\`\`\`bash  \npython line_intersection.py  \n\`\`\`  \n\n### Usage  \n\n- Input the coordinates of two line segments when prompted.  \n- Choose the method for detecting line intersection: CCW (Counter-Clockwise), Slope, or Vector.  \n- A plot will be displayed showing the two line segments, and it will indicate whether the lines intersect." > README.md
+###Convex Hull and Line Intersection Algorithms
+Welcome to the Convex Hull and Line Intersection Algorithms project! This repository includes two Python scripts: #convex_hull.py and #line_intersection.py. These scripts are designed to provide functionalities related to convex hull computation and line segment intersection detection in a 2D plane.
+#Convex Hull (convex_hull.py)
+Dependencies
+Python 3.0
+Tkinter (required for the GUI in the PointGeneratorApp class)
+How to Run
+Execute the convex_hull.py script in your terminal using the following command:
+#python convex_hull.py
+##Usage
+#Click on the "Generate Random Points" button to populate the canvas with random points.
+#Choose a convex hull algorithm from the available options: Brute Force, Jarvis March, Graham Scan, Quick Elimination, or Monotone Chain.
+#The canvas will dynamically display the convex hull in red, and the algorithm's execution time will be showcased prominently.
+##Line Intersection (line_intersection.py)
+#Dependencies
+Python 3.0
+Matplotlib
+NumPy
+memory-profiler
+How to Run
+Run the line_intersection.py script with the following command:
+##python line_intersection.py
+##Usage
+Input the coordinates for two line segments when prompted.
+Choose a method for detecting line intersection: CCW (Counter-Clockwise), Slope, or Vector.
+The script will generate a visual plot showcasing the two line segments, with a clear indication of whether they intersect.
+Feel free to explore, contribute, and customize these scripts according to your needs. Happy coding!
